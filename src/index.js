@@ -1,4 +1,1 @@
-// index.js
-import { greeting } from "./greeting.js";
-
-console.log(greeting);
+console.log("This is for testing")
