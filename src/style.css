@@ -1,0 +1,62 @@
+@font-face {
+    font-family: cinzel;
+    src: url(../Cinzel-VariableFont_wght.ttf);
+}
+
+
+body{
+    background-color: #1C1A1A;
+    color: #EDEBE6;
+    font-family: cinzel;
+    text-align: center;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.homeCont{
+    margin-bottom: 60px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+
+.homeCont > h1, h3{
+    height: 80%;
+    margin: 0;
+}
+
+.homeCont > h3{
+    font-size: 100%;
+}
+
+.homeCont > img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mottoCont{
+    margin-top: 15px;
+}
+
+.mottoCont > h2, h3{
+    margin: 0;
+}
+
+.mottoCont > h2{
+    font-size: 22px;
+}
+
+.mottoCont > h3{
+    font-size: 15px;
+}
