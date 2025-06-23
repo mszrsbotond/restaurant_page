@@ -11,6 +11,25 @@ body{
     text-align: center;
 }
 
+button{
+    margin: 10px 30px 10px 30px;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    font-family: cinzel;
+    background-color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+
+    transition: background-color 1s;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(240, 216, 6);
+}
+
+
 .page{
     display: flex;
     justify-content: center;
@@ -59,4 +78,25 @@ body{
 
 .mottoCont > h3{
     font-size: 15px;
+}
+
+table, th, td{
+    border: 1px solid goldenrod;
+    border-collapse:inherit;
+}
+
+th{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+td{
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table{
+    border: 4px solid goldenrod;
 }
